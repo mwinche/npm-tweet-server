@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var expressWs = require('express-ws');
-var fetch = require('npm-tweet-fetch');
+var fetch = require('npm-tweet-search');
 var filter = require('npm-tweet-filter');
 
 var publicDir = path.join(require('npm-tweet-page'), 'public');
