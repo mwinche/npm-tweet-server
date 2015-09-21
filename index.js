@@ -4,10 +4,10 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var expressWs = require('express-ws');
-var fetch = require('mwinche-twitter-fetch');
-var filter = require('mwinche-tweet-filter');
+var fetch = require('npm-twitter-fetch');
+var filter = require('npm-tweet-filter');
 
-var publicDir = path.join(require('mwinche-tweet-page'), 'public');
+var publicDir = path.join(require('npm-tweet-page'), 'public');
 var HASHTAG = '#whatisnpm';
 
 expressWs(app);
