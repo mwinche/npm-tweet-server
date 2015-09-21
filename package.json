@@ -1,17 +1,32 @@
 {
-  "name": "mwinche-tweet-server",
+  "name": "npm-tweet-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server which serves up npm-tweet-page and provides a websocket with a live tweet stream",
   "main": "index.js",
   "dependencies": {
     "express": "4.13.3",
     "express-ws": "0.2.6"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mwinche/npm-tweet-server.git"
+  },
+  "keywords": [
+    "mwinche",
+    "utahjs",
+    "npm",
+    "whatisnpm",
+    "twitter",
+    "tweet",
+    "tweets",
+    "stream",
+    "streaming"
+  ],
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
